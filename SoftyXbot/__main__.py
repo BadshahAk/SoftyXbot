@@ -630,7 +630,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Music_":
         query.message.edit_caption(f"""
- ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴍᴜꜱɪᴄ ʙᴏᴛ @PAKHI_MUSIC_ROBOT
+ ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴍᴜꜱɪᴄ ʙᴏᴛ @PAKHI\_MUSIC\_ROBOT
 """,
             parse_mode=ParseMode.MARKDOWN,
             
