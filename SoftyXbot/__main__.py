@@ -630,7 +630,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Music_":
         query.message.edit_caption(f"""
- ʜᴇʀᴇ ɪꜱ ʜᴇʟᴘ ᴍᴇɴᴜ ꜰᴏʀ ᴍᴜꜱɪᴄ 
+ ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴍᴜꜱɪᴄ ʙᴏᴛ @PAKHI_MUSIC_ROBOT
 """,
             parse_mode=ParseMode.MARKDOWN,
             
@@ -639,17 +639,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     
                     [
                         InlineKeyboardButton(
-                            text="⍟ ᴀᴅᴍɪɴ ⍟", callback_data="Music_admin"
-                        ),
-                        InlineKeyboardButton(
-                            text="⍟ ᴘʟᴀʏ ⍟", callback_data="Music_play"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(text="⍟ ʙᴏᴛ ⍟", callback_data="Music_bot"),
-                        InlineKeyboardButton(
-                            text="⍟ ᴇxᴛʀᴀ ⍟",
-                            callback_data="Music_extra",
+                            text="⍟ 𝐴𝐷𝐷 𝑇𝐻𝐼𝑆 ⍟", url=f"https://t.me/PAKHI_MUSIC_ROBOT?startgroup=true",
                         ),
                     ],
                     [
@@ -657,7 +647,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     ],
                 ]
             ),
-        )
+                        )
     elif query.data == "Music_admin":
         query.message.edit_caption(f"*» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «*"
             f"""
