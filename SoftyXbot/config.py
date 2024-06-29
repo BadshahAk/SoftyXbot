@@ -6,11 +6,11 @@ class Config(object):
 
     API_ID = "26882517" # integer value, dont use ""
     API_HASH = "bc8d9b580209928b720858cb1a17763e"
-    TOKEN = "7232345056:AAE576nZcJxhkU1NtvpKPOrAUL0_iEr5u9g"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "7496338256" # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
     SUPPORT_CHAT = "Love_x_frnd"  # Your own group for support, do not add the @
-    START_IMG = "https://graph.org/file/a6f730b2b3c8f82a8e387.jpg"
+    START_IMG = "https://graph.org/file/eb02b3e394c83f645ee01.jpg"
     EVENT_LOGS = (-1001996172961)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= "mongodb+srv://Vicky123:Vicky123@cluster0.qznmdso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     # RECOMMENDED
