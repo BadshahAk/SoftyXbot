@@ -96,7 +96,7 @@
 
 </h3>
 
-<a href="https://github.com/noob-mukesh"><img src="https://img.shields.io/badge/-♦️Noob-Mukesh♦️-darkblue?style=for-the-badge&logo=Telegram"></a>
+<a href="https://github.com/noob-mukesh"><img src="https://img.shields.io/badge/-♦️Noob Mukesh♦️-darkblue?style=for-the-badge&logo=Telegram"></a>
 
 </p>
 </h3>
