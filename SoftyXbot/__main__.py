@@ -388,14 +388,7 @@ def Softy_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     
-                    [
-                        InlineKeyboardButton(
-                            text="Ｏｗｎｅｒ", url=f"https://t.me/King_X_Legend"
-                        ),
-                        InlineKeyboardButton(
-                         text="Ｃｏ-Ｏｗｎｅｒ", url=f"https://t.me/LegendBoy_hu"   
-                        ),
-                    ],
+                    
                     [
                         InlineKeyboardButton(text="《", callback_data="Softy_back"),
                     ],
@@ -414,7 +407,7 @@ def Softy_about_callback(update: Update, context: CallbackContext):
                             text="🏡 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url=f"https://t.me/Love_x_frnd"
+                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url=f"https://t.me/+vU9DnD4j5tAxNWJl"
                         ),
                     ],
                     [
